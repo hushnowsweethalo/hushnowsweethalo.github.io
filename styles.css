@@ -1,9 +1,9 @@
 /* unvisited link */
 a:link {
-    color: red;
+    color: green;
   }
   
   /* visited link */
   a:visited {
-    color: green;
+    color: darkgreen;
   }
