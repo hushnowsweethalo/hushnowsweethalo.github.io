@@ -1,0 +1,3 @@
+Publish changes to Website:
+1. git commit -am "updated website"
+2. git push origin main
