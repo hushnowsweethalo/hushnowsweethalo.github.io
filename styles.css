@@ -7,3 +7,13 @@ a:link {
   a:visited {
     color: darkgreen;
   }
+
+  img#band-pic {
+    height: auto;
+    width: 200px;
+  }
+
+  img#logo {
+    height: auto;
+    width: 50vw;
+  }
