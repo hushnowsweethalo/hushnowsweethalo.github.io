@@ -1,0 +1,357 @@
+.epk-heading-wrap {
+  display: inline-block;
+  max-width: 100%;
+  white-space: normal;
+  text-align: center;
+}
+
+/* EPK: make image cards transparent so page background shows through */
+.card {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.card .card-body {
+  background: transparent !important;
+}
+.card-img-top {
+  background: transparent;
+}
+.nowrap-presskit {
+  white-space: nowrap;
+}
+.nowrap-presskit {
+  white-space: nowrap;
+}
+:root {
+  --link-color: #1a8f2b;
+  --link-color-hover: #166f21;
+  --brand-red: #4a365a00; /* clickable link color */
+  --page-bg: #f8f3ee; /* warm paper-like background */
+  --text-main: #0b0b0b;
+  --text-muted: #5f5f5f;
+  --divider: rgba(11,11,11,0.18);
+  --section-divider: rgba(60,40,20,0.12); /* slightly warm sepia for section dividers */
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+/* 90s band aesthetic: serif Linden Hill everywhere */
+body {
+  font-family: 'Linden Hill', serif;
+  background-image: url("background-img.jpg");
+  background-repeat: repeat;
+  background-size: 450px 450px;
+
+  color: var(--text-main);
+  font-size: 18px;
+  /* custom cursor: uses hand.png in the project root with a fallback */
+  cursor: url('hand.png') 16 16, auto;
+
+}
+
+
+/* Band logo / heading treatment */
+.site-title {
+  font-size: 3rem;
+  letter-spacing: 0.6px;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Cloister Black';
+  src: url('assets/fonts/CloisterBlack.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title-badge {
+  font-family: 'Cloister Black', serif;
+  font-size: 3.2rem;
+  display: inline-block;
+  background: var(--brand-red);
+  color: #1f1e1e;
+  border-radius: 0.75rem;
+  padding: 0.3rem 0.7rem;
+  white-space: nowrap; /* keep title badge on a single line */
+}
+
+/* small helper to make long lists scrollable (used for Past Shows) */
+.scrollable-list {
+  max-height: 200px;
+  overflow: auto;
+  padding-right: 0.5rem; /* avoid clipping scrollbar */
+}
+
+/* Use vertical stacking for release platform links to match social media list structure */
+.link-list {
+  padding-left: 0;
+  margin: 0;
+}
+.link-list li {
+  margin-bottom: .5rem;
+}
+
+.divider {
+  
+  border: 0;
+  border-top: 3px solid var(--divider);
+  margin: 1rem 0;
+  opacity: 1;
+
+  padding: 0.5rem;
+  background: transparent;
+
+  border: 0px solid #41403e00;
+  border-bottom: 2px solid #41403E;
+
+  border-radius: 
+    155px 15px 
+    125px 15px /
+    15px 225px 
+    15px 255px;  
+
+  transform: rotate(-0.7deg);
+
+
+}
+
+.rect-box {
+  font-family: "Patrick Hand SC", cursive;
+  color: #41403E;
+
+
+  padding: 1.5rem;
+  background: transparent;
+
+  border: 2px solid #41403E;
+
+  border-radius: 
+    255px 15px 
+    225px 15px /
+    15px 225px 
+    15px 255px;
+
+}
+
+.hd-button1 {
+  font-family: "Patrick Hand SC", cursive;
+  color: #41403E;
+
+  padding: 1.5rem;
+  background: transparent;
+
+  border: 1px solid #41403e;
+  border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+  transform: rotate(2deg);
+
+  background-image: url('paper-texture.jpg');
+  filter: brightness(89%);
+
+  box-shadow: 
+    9px 8px 4px -2px hsla(0,0%,0%,.2);
+
+  transition: box-shadow 0.3s ease;
+}
+
+.hd-button1:hover {
+  box-shadow: 
+    2px 8px 4px -6px hsla(0,0%,0%,.3);
+   border: 1px solid #41403e;
+  color: #41403E;
+}
+
+.hd-button2 {
+  font-family: "Patrick Hand SC", cursive;
+  color: #41403E;
+
+  padding: 1.5rem;
+  background: transparent;
+
+  border: 1px solid #41403e;
+  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+  transform: rotate(-1deg);
+
+  background-image: url('paper-texture.jpg');
+  filter: brightness(92%);
+
+  box-shadow: 
+    9px 8px 4px -2px hsla(0,0%,0%,.2);
+
+  transition: box-shadow 0.3s ease;
+}
+  
+.hd-button2:hover {
+  box-shadow: 
+    2px 8px 4px -6px hsla(0,0%,0%,.3);
+   border: 1px solid #41403e;
+   color: #41403E;
+}
+
+.hd-button3 {
+  font-family: "Patrick Hand SC", cursive;
+  color: #41403E;
+
+  padding: 1.5rem;
+  background: transparent;
+
+  border: 1px solid #41403e;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+  transform: rotate(2deg);
+
+  background-image: url('paper-texture.jpg');
+  filter: brightness(92%);
+
+  box-shadow: 
+    9px 8px 4px -2px hsla(0,0%,0%,.2);
+
+  transition: box-shadow 0.3s ease;
+}
+  
+.hd-button3:hover {
+  box-shadow: 
+    2px 8px 4px -6px hsla(0,0%,0%,.3);
+   border: 1px solid #41403e;
+   color: #41403E;
+}
+
+
+
+
+
+/* horizontal section divider (used under header and between stacked sections) */
+.section-divider {
+  border: 0;
+  border-top: 3px solid var(--section-divider);
+  margin: 1.25rem 0;
+}
+
+.release-item img.square {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+/* All clickable things that are plain links (not .btn) should be green and underlined */
+a:not(.btn) {
+  color: var(--link-color);
+  font-size: 1.1rem;
+}
+/* link interaction states */
+a:not(.btn):hover,
+a:not(.btn):focus {
+  color: var(--link-color-hover);
+  text-decoration-color: var(--link-color-hover);
+}
+a:not(.btn):visited {
+  color: var(--link-color-hover);
+}
+
+
+
+/* make small muted text sit well on warm background */
+.text-body-secondary {
+  color: var(--text-muted) !important;
+}
+
+/* Make buttons and button-like inputs slightly larger for legibility */
+.btn,
+button,
+input[type="button"],
+input[type="submit"],
+.button {
+  font-size: 1.05rem;
+  padding: 0.30rem 0.55rem;
+}
+
+/* Ensure raw <hr> elements follow the thicker global rule */
+hr {
+  border: 0;
+  height: 3px;
+  background: var(--divider);
+  margin: 1rem 0;
+}
+
+/* Slightly larger text for scrollable lists and link lists */
+.scrollable-list,
+.link-list,
+.link-list li {
+  font-size: 1.05rem;
+}
+
+/* Make columns' contents sit directly on the main page background (no panels)
+   Keep spacing similar to the old 'panel' padding by adding padding to sections. */
+section.col-12.col-lg-4 {
+  padding: 1rem;
+}
+
+/* Use a selector that only adds a left border to sections that follow another section
+   so the first column remains border-free. Also use a slightly warm divider color. */
+@media (min-width: 992px) {
+  .row > .hush-section + .hush-section {
+    border-left: 10px solid var(--section-divider);
+    padding-left: 1.5rem; /* push content away from the divider */
+    border-image: url('border2..png') 20 stretch; /* use image border for a textured look */
+  }
+  .row > .hush-section {
+    padding-right: 1.5rem;
+  }
+}
+
+/* Header images */
+.header-img,
+.cover-img {
+  width: 100%;
+  height: auto;           /* allow natural aspect ratio */
+  max-height: 420px;     /* constrain height while keeping full image visible */
+  object-fit: contain;    /* ensure the full image is visible, no cropping */
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.02) inset;
+}
+
+@media (max-width: 675.98px) {
+  .header-img {
+    content: url('assets/images/hushnow-mobile.png');
+  }
+  .cover-img {
+    height: 140px;
+  }
+  .footer-logo-mobile {
+    display: block !important;
+    margin: 2rem auto 1rem auto;
+    max-width: 220px;
+    width: 100vw;
+    height: auto;
+  }
+}
+
+.footer-logo-mobile {
+  display: none;
+}
+
+.header-contact {
+  font-size: 1.4rem;
+  display: inline-block;
+}
+.header-contact a {
+  font-size: 1.4rem;
+}
+
+@media (max-width: 675.98px) {
+  .header-contact {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  .header-contact:last-child {
+    margin-bottom: 0;
+  }
+  .header-row .row.align-items-center.fs-5 {
+    flex-direction: column !important;
+  }
+}
