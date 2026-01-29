@@ -137,7 +137,8 @@ body {
 }
 
 .hd-button1 {
-  font-family: "Patrick Hand SC", cursive;
+  font-family: "Patrick Hand SC", sans-serif;
+
   color: #41403E;
 
   padding: 1.5rem;
@@ -164,7 +165,7 @@ body {
 }
 
 .hd-button2 {
-  font-family: "Patrick Hand SC", cursive;
+  font-family: "Patrick Hand SC", sans-serif;
   color: #41403E;
 
   padding: 1.5rem;
@@ -191,7 +192,7 @@ body {
 }
 
 .hd-button3 {
-  font-family: "Patrick Hand SC", cursive;
+  font-family: "Patrick Hand SC", sans-serif;
   color: #41403E;
 
   padding: 1.5rem;
